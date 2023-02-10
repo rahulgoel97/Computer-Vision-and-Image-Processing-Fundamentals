@@ -1,0 +1,10 @@
+Week 2 notes
+
+Spatial Operations in Image Processing
+- Pooling - averaging a bunch of filters into one pixel
+- Z = W * X , where W is kernel with pretermined values
+- Edge detection - shap changes in brightness (pixel intensity values)
+-> dI/dx = change in pixel i+1 and pixel i
+-> Sobel operator kernels can be used for edge detection
+
+- Median filters - median value of area
